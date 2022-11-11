@@ -68,7 +68,7 @@
                         bindings = <
    &kp PIPE  &kp RPAR   &kp PRCNT  &kp ASTRK &kp LPAR    &kp RA(APOS)         &kp AMPS  &kp EQUAL     &kp UNDER         &kp NUBS   &kp RBRC   &kp BSPC
    &kp TAB   &kp RA(Q)  &kp AT     &kp SQT   &kp BSLH    &kp RA(BSLH)         &kp NUBS  &kp PLUS      &kp EXCL          &kp PIPE2  &kp RBKT   &kp DEL
-   &kp LBRC  &kp DLLR   &kp CARET  &kp DQT   &kp TILDE2  &kp HASH             &kp TILDE &kp RA(RBKT)  &kp &kp RA(GRAVE) &kp QMARK  &kp FSLH   &kp LSHIFT
+   &kp LBRC  &kp DLLR   &kp CARET  &kp DQT   &kp TILDE2  &kp HASH             &kp TILDE &kp RA(RBKT)  &kp RA(GRAVE)     &kp QMARK  &kp FSLH   &kp LSHIFT
                    &kp LT  &kp GT &mt LCTRL SPACE                                  &kp RET &trans &kp LALT
                         >;
                 };
