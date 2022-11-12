@@ -18,7 +18,7 @@
 
 / {
     macros {
-        zed_em_kay: zed_em_kay {
+        sym_lay: sym_lay {
             label = "ZM_sym_lay";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
