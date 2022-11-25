@@ -45,7 +45,7 @@
    &kp F1   &kp F2    &kp F3     &kp F4    &kp F5     &kp F6        &kp LC(C)  &kp LC(X)   &kp UP       &kp LC(V)   &kp PSCRN    &kp BSPC
    &kp TAB  &none     &kp LCTRL  &kp LALT  &kp LSHIFT &none         &kp LCTRL  &kp LEFT    &kp DOWN     &kp RIGHT   &none        &kp DEL
    &kp F7   &kp F8    &kp F9     &kp F10   &kp F11    &kp F12       &kp C_PP   &kp C_PREV  &kp C_NEXT   &kp C_MUTE  &kp C_VOL_DN &kp C_VOL_UP
-                  &kp LGUI  &trans  &mt LCTRL SPACE                         &kp RET &trans &tog LOL
+                  &kp LGUI  &trans  &mt LCTRL SPACE                         &kp RET &tog LOL &trans
                         >;
                 };
                 num_layer {
@@ -68,7 +68,7 @@
 // |     |  $  |  &  |  [   |   ]  |  #  |     |  °  |  ~  |  ¬  |  _  |  -  | SHIFT |    
 //                      |  ;  |   :  | SPACE/CTRL |   | ENT |     |  ALT   |
                         bindings = <
-   &kp PIPE  &kp RPAR   &kp PRCNT  &kp ASTRK &kp LPAR    &kp RA(APOS)         &kp RA(MINUS)  &kp EQUAL     &kp UNDER         &kp NUBS   &kp RBRC   &kp BSPC
+   &kp GRAVE  &kp RPAR   &kp PRCNT  &kp ASTRK &kp LPAR    &kp RA(APOS)         &kp RA(MINUS)  &kp EQUAL     &kp UNDER         &kp NUBS   &kp RBRC   &kp BSPC
    &kp TAB   &kp RA(Q)  &kp AT     &kp SQT   &kp BSLH    &kp RA(BSLH)         &kp AMPS       &kp PLUS      &kp EXCL          &kp PIPE2  &kp RBKT   &kp DEL
    &kp LBRC  &kp DLLR   &kp CARET  &kp DQT   &kp TILDE2  &kp HASH             &kp TILDE      &kp RA(RBKT)  &kp RA(GRAVE)     &kp QMARK  &kp FSLH   &kp LSHIFT
                    &kp LT  &kp GT &mt LCTRL SPACE                                  &kp RET &trans &kp LALT
