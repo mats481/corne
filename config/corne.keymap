@@ -58,7 +58,7 @@
    &kp C_BRI_UP  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI      &kp RPAR  &kp N7  &kp N8  &kp N9  &kp RBRC   &kp BSPC
    &kp C_BRI_DN  &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD      &kp AMPS  &kp N4  &kp N5  &kp N6  &kp RBKT   &kp DEL
    &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &bt BT_SEL 4    &rgb_ug RGB_TOG      &kp COMMA &kp N1  &kp N2  &kp N3  &kp FSLH   &kp LSHIFT
-                        &bt BT_CLR  &trans &mt LCTRL SPACE                                                      &kp RET &kp DOT &kp N0
+                       &trans &bt BT_CLR &mt LCTRL SPACE                                                      &kp RET &kp DOT &kp N0
                         >;
                 };    
                 sym_layer {
