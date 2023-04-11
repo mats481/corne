@@ -65,7 +65,7 @@
 // ----------------------------------------------------------------------------------------
 // |  |  |  =  |  %  |  (   |   )  |  ^  |     |  \  |  ¿  |  ?  |  <  |  *  |  BKSP |
 // | TAB |  @  |  "  |  {   |   }  |  `  |     |  /  |  ¡  |  !  |  >  |  +  |  SUP  |
-// |     |  $  |  &  |  [   |   ]  |  #  |     |  °  |  ~  |  ¬  |  _  |  -  | SHIFT |    
+// |  ¨  |  $  |  &  |  [   |   ]  |  #  |     |  °  |  ~  |  ¬  |  _  |  -  | SHIFT |    
 //                      |  ;  |   :  | SPACE/CTRL |   | ENT |     |  ALT   |
                         bindings = <
    &kp GRAVE  &kp RPAR   &kp PRCNT  &kp ASTRK &kp LPAR    &kp RA(APOS)         &kp RA(MINUS)  &kp EQUAL     &kp UNDER         &kp NUBS   &kp RBRC   &kp BSPC
