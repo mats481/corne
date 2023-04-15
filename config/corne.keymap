@@ -50,23 +50,10 @@
                 };
                 num_layer {
 // -----------------------------------------------------------------------------------------
-// |  +BRI |  =  |  %  |  (   |   )  |  :  |     |  =  |  7  |  8  |  9  |  *  |  BKSP |
-// |  -BRI |  [  |  ]  |  {   |   }  |  ;  |     |  /  |  4  |  5  |  6  |  +  |  SUP  |
-// | BTRST |  B1 |  B2 |  B3  |  B4  |  B5 |     |  ,  |  1  |  2  |  3  |  -  | SHIFT |
-//                      |    |     | SPACE/CTRL |   | ENT |   .  |  0   |
-                        bindings = <
-   &kp C_BRI_UP  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI      &kp RPAR  &kp N7  &kp N8  &kp N9  &kp RBRC   &kp BSPC
-   &kp C_BRI_DN  &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD      &kp AMPS  &kp N4  &kp N5  &kp N6  &kp RBKT   &kp DEL
-   &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3    &bt BT_SEL 4    &rgb_ug RGB_TOG      &kp COMMA &kp N1  &kp N2  &kp N3  &kp FSLH   &kp LSHIFT
-                       &trans &bt BT_CLR &mt LCTRL SPACE                                                      &kp RET &kp DOT &kp N0
-                        >;
-                };    
-                sym_layer {
-// ----------------------------------------------------------------------------------------
-// |  |  |  =  |  %  |  (   |   )  |  ^  |     |  \  |  ¿  |  ?  |  <  |  *  |  BKSP |
-// | TAB |  @  |  "  |  {   |   }  |  `  |     |  /  |  ¡  |  !  |  >  |  +  |  SUP  |
-// |     |  $  |  &  |  [   |   ]  |  #  |     |  °  |  ~  |  ¬  |  _  |  -  | SHIFT |    
-//                      |  ;  |   :  | SPACE/CTRL |   | ENT |     |  ALT   |
+// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp GRAVE  &kp RPAR   &kp PRCNT  &kp ASTRK &kp LPAR    &kp RA(APOS)         &kp RA(MINUS)  &kp EQUAL     &kp UNDER         &kp NUBS   &kp RBRC   &kp BSPC
    &kp TAB   &kp RA(Q)  &kp AT     &kp SQT   &kp BSLH    &kp RA(BSLH)         &kp AMPS       &kp PLUS      &kp EXCL          &kp PIPE2  &kp RBKT   &kp DEL
